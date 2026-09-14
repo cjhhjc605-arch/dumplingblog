@@ -5,8 +5,6 @@ tags:
   - py
 description: ""
 ---
-## Python3.xPython3 基础语法
-
 ## 编码
 
 默认情况下，Python3 源码文件以 **UTF-8** 编码，所有字符串都是 unicode 字符串。
@@ -360,5 +358,148 @@ Options and arguments (and corresponding environment variables):
 ```
 
 我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用可以参照 [Python 3 命令行参数](https://www.runoob.com/python3/python3-command-line-arguments.html) 。
+
+---
+
+## 练习题
+
+- [x] **1. 标识符合法性判断**
+  打开记事本，创建文件 `test_identifier.py`，编写一个程序：让用户输入一个标识符名称，然后判断它是否是合法的 Python 标识符（不能以数字开头，不能是关键字，只能包含字母、数字、下划线）。运行程序并测试 `2name`、`user_name`、`class` 这三个输入。
+
+  **参考答案：**
+  ```python
+  import keyword
+
+  def is_valid_identifier(name):
+      # 检查是否为空
+      if not name:
+          return False
+      # 检查第一个字符是否为字母或下划线
+      if not (name[0].isalpha() or name[0] == '_'):
+          return False
+      # 检查是否包含非法字符
+      for char in name:
+          if not (char.isalnum() or char == '_'):
+              return False
+      # 检查是否为关键字
+      if keyword.iskeyword(name):
+          return False
+      return True
+
+  # 测试
+  print(is_valid_identifier("2name"))    # False
+  print(is_valid_identifier("user_name"))  # True
+  print(is_valid_identifier("class"))    # False
+  ```
+
+- [x] **2. 查看 Python 关键字**
+  打开命令提示符（CMD），输入 `python` 进入交互模式，然后输入以下代码查看所有关键字：
+  ```python
+  import keyword
+  print(keyword.kwlist)
+  ```
+  统计一下共有多少个关键字。
+
+  **参考答案：**
+  Python 3.13 共有 **35** 个关键字。运行代码后会输出完整列表，可以用 `len(keyword.kwlist)` 直接获取数量。
+
+- [x] **3. 缩进错误实验**
+  创建文件 `test_indent.py`，故意写一个缩进不一致的代码：
+  ```python
+  if True:
+      print("正确缩进")
+    print("错误缩进")
+  ```
+  运行它，观察报错信息 `IndentationError`，然后修正缩进使程序正常运行。
+
+  **参考答案：**
+  ```python
+  # 修正后：统一使用4个空格缩进
+  if True:
+      print("正确缩进")
+      print("错误缩进")  # 也改成4个空格
+  ```
+  或者让第二行不缩进，成为独立语句：
+  ```python
+  if True:
+      print("正确缩进")
+  print("错误缩进")  # 不缩进，属于if外面的语句
+  ```
+
+- [x] **4. 多行语句练习**
+  创建文件 `test_multiline.py`，用反斜杠 `\` 把下面的加法拆成多行写：
+  ```python
+  total = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+  ```
+  运行程序，输出结果应为 `55`。
+
+  **参考答案：**
+  ```python
+  total = 1 + 2 + 3 + 4 + 5 + \
+          6 + 7 + 8 + 9 + 10
+  print(total)  # 输出：55
+  ```
+
+- [x] **5. 字符串操作练习**
+  创建文件 `test_string.py`，完成以下操作：
+  ```python
+  s = "Hello Python"
+  print(s[0])      # 输出第一个字符
+  print(s[-1])     # 输出最后一个字符
+  print(s[0:5])    # 输出切片
+  print(s * 2)     # 重复输出
+  ```
+  运行并记录每行的输出结果。
+
+  **参考答案：**
+  ```
+  H
+  n
+  Hello
+  Hello PythonHello Python
+  ```
+
+- [x] **6. 不换行输出练习**
+  创建文件 `test_print.py`，使用 `end=" "` 参数让多个 `print` 在同一行输出：
+  ```python
+  for i in range(1, 6):
+      print(i, end=" ")
+  print()  # 最后换行
+  ```
+  运行程序，观察输出结果是否为 `1 2 3 4 5`。
+
+  **参考答案：**
+  输出结果：`1 2 3 4 5 `（末尾有一个空格）
+
+- [x] **7. input 等待用户输入**
+  创建文件 `test_input.py`，编写程序：提示用户输入姓名，然后打印问候语。
+  ```python
+  name = input("请输入你的姓名: ")
+  print("你好，" + name + "！欢迎学习Python！")
+  ```
+  运行程序，输入你的名字，观察输出。
+
+  **参考答案：**
+  运行后输入 `小明`，输出：`你好，小明！欢迎学习Python！`
+
+- [x] **8. 导入模块练习**
+  创建文件 `test_import.py`，分别用两种方式导入 `math` 模块并计算平方根：
+  ```python
+  # 方式一：import
+  import math
+  print(math.sqrt(16))
+
+  # 方式二：from...import
+  from math import sqrt
+  print(sqrt(25))
+  ```
+  运行程序，输出结果应为 `4.0` 和 `5.0`。
+
+  **参考答案：**
+  运行输出：
+  ```
+  4.0
+  5.0
+  ```
 
 ---
