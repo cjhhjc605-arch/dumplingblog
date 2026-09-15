@@ -7,26 +7,23 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "团子和蛋糕的博客",
+	title: "饺子博客",
 
 	// 站点副标题
-	subtitle: "",
+	subtitle: "jia的个人博客",
 
 	// 站点 URL
 	site_url: "https://blog.tsh520.cn",
 
 	// 站点描述
 	description:
-		"团子和蛋糕的博客，一个分享技术见解与生活感悟的个人空间。涵盖编程开发、实用工具推荐、ACG文化与日常生活的随想，记录成长的每一步。",
+		"饺子博客，一个分享技术见解与生活感悟的个人空间。涵盖编程开发、实用工具推荐、ACG文化与日常生活的随想，记录成长的每一步。",
 
 	// 站点关键词
 	keywords: [
-		"团子",
-		"团子和蛋糕",
-		"蛋糕",
-		"团子和蛋糕的博客",
-		"团子的博客",
-		"蛋糕的博客",
+		"饺子",
+		"jia的个人博客",
+		"饺子博客",
 	],
 
 	// 主题色
@@ -76,7 +73,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "团子和蛋糕",
+		title: "饺子博客",
 		// 悬停时显示的互动颜文字
 		hoverTitle: "w(ﾟДﾟ)w 不要走！再看看嘛！",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
@@ -92,7 +89,7 @@ export const siteConfig: SiteConfig = {
 	portal: {
 		announcement: {
 			enable: true,
-			text: "欢迎来到团子和蛋糕的博客！这里有技术分享、生活记录和更多有趣内容。",
+			text: "欢迎来到饺子博客！这里有技术分享、生活记录和更多有趣内容。",
 		},
 		dailyQuote: {
 			enable: true,
