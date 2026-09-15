@@ -13,18 +13,14 @@ export const siteConfig: SiteConfig = {
 	subtitle: "jia的个人博客",
 
 	// 站点 URL
-	site_url: "https://blog.tsh520.cn",
+	site_url: "https://blog.215454.xyz",
 
 	// 站点描述
 	description:
 		"饺子博客，一个分享技术见解与生活感悟的个人空间。涵盖编程开发、实用工具推荐、ACG文化与日常生活的随想，记录成长的每一步。",
 
 	// 站点关键词
-	keywords: [
-		"饺子",
-		"jia的个人博客",
-		"饺子博客",
-	],
+	keywords: ["饺子", "jia的个人博客", "饺子博客"],
 
 	// 主题色
 	themeColor: {

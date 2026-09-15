@@ -33,7 +33,7 @@
 | 框架 | Astro 7.1.6 + Svelte 5 + Tailwind CSS v4 |
 | 包管理 | pnpm 9.14.4 (ESM, `preinstall` 强制) |
 | 运行时 | Node.js >= 22 |
-| 部署 | GitHub Pages（构建，`.github/workflows/pages.yml`） + EdgeOne 站点加速（CDN，回源 `tianshihao2003.github.io`） |
+| 部署 | Cloudflare Workers（静态资源模式，`.github/workflows/deploy-cloudflare.yml` + `wrangler.jsonc`）或 GitHub Pages（`.github/workflows/pages.yml`） + EdgeOne 站点加速 |
 | 线上 | https://blog.tsh520.cn/ |
 | 后台 | PagesCMS 自托管（Vercel + EdgeOne 加速）：https://cms.tsh520.cn/（配置见第 19 节） |
 | 来源 | Fork 自 CuteLeaf/Firefly ← saicaca/fuwari，已深度定制为独立演化 |
@@ -94,6 +94,8 @@ src/
 
 # 根目录其他重要文件
 .pages.yml                # PagesCMS 后台配置（11 集合声明，见第 19 节）
+wrangler.jsonc            # Cloudflare Workers 部署配置（静态资源模式，assets.directory 指向 ./dist）
+.env                      # 本地环境变量（已 gitignore，含 GATE_PASSWORD 等，模板见 .env.example）
 .claude/settings.json     # 命令白名单（分类器不可用时不卡 Bash）
 pagefind.yml              # Pagefind 索引排除配置（katex、搜索面板等）
 scripts/                  # 开发脚本：10 个中文命名脚本目录（生成图标/新建文章/生成摘要/转WebP/添加导航/下载影视/下载音乐/回填友链字段/友链截图/友链状态检测）+ cli.js、vision.mjs（图片识别）、compress-images.mjs、rename-images.mjs、import-wallpapers.mjs、check-svelte-warnings.mjs（脚本清单见第 0 节）

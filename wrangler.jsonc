@@ -1,0 +1,19 @@
+{
+	// Cloudflare Workers 部署配置（静态资源模式）
+	// 本项目是纯静态站点：astro build 产出 dist/，由 Workers Static Assets 直接托管，
+	// 不需要 @astrojs/cloudflare 适配器，也没有 Worker 运行时脚本。
+	"$schema": "node_modules/wrangler/config-schema.json",
+
+	// Worker 名称。必须与 Cloudflare 控制台上已有的 Worker 同名，
+	// 否则 wrangler deploy 会新建一个 Worker 而不是更新现有的那个。
+	"name": "dumplingblog",
+
+	"compatibility_date": "2026-09-15",
+
+	// 静态资源目录指向 astro 的构建产物
+	"assets": {
+		"directory": "./dist",
+		// 命中 Astro 生成的 dist/404.html 作为 404 页
+		"not_found_handling": "404-page"
+	}
+}
