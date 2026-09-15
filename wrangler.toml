@@ -1,0 +1,8 @@
+name = "jia"
+compatibility_data = "2026-09-15" #更改为今日
+
+[assets]
+directory = "./dist"
+
+[vars]
+NODE_VERSION = "22"
