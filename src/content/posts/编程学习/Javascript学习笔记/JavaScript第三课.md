@@ -38,7 +38,7 @@ for (初始化; 判断条件; 变量更新) {
 
   
 
-![for 循环执行流程：① 初始化 → ② 判断 → 循环体 → ③ 更新 → 回到 ②](images/01-for-flow.png)
+![for 循环执行流程：① 初始化 → ② 判断 → 循环体 → ③ 更新 → 回到 ②](https://img.215454.xyz/file/blog/jia/1790347441780_01-for-flow.png)
 
   
 
@@ -186,7 +186,7 @@ console.log(num); // 100000
 
   
 
-![while 与 do…while 的区别：先判断 vs 先执行](images/02-while-dowhile.png)
+![while 与 do…while 的区别：先判断 vs 先执行](https://img.215454.xyz/file/blog/jia/1790347462860_02-while-dowhile.png)
 
   
 
@@ -284,7 +284,7 @@ i++;
 
   
 
-![break 与 continue：一个跳出整个循环，一个只跳过本次](images/03-break-continue.png)
+![break 与 continue：一个跳出整个循环，一个只跳过本次](https://img.215454.xyz/file/blog/jia/1790347461853_03-break-continue.png)
 
   
 
@@ -504,7 +504,7 @@ c = 0; // 换下一个 i 前必须归零
 
   
 
-![双重循环判定质数：外层 i 与内层 j，统计约数个数](images/04-nested-loop-prime.png)
+![双重循环判定质数：外层 i 与内层 j，统计约数个数](https://img.215454.xyz/file/blog/jia/1790347469969_04-nested-loop-prime.png)
 
   
 
@@ -588,7 +588,7 @@ console.log(person.name); // 小王
 
   
 
-![原始值与引用值的赋值区别：复制值 vs 复制地址](images/05-primitive-vs-reference.png)
+![原始值与引用值的赋值区别：复制值 vs 复制地址](https://img.215454.xyz/file/blog/jia/1790347478823_05-primitive-vs-reference.png)
 
   
 
@@ -684,7 +684,7 @@ console.log(typeof(a)); // undefined（a 未声明过）
 
   
 
-![Number / parseInt / parseFloat 对同一个输入的不同结果](images/06-number-parseint.png)
+![Number / parseInt / parseFloat 对同一个输入的不同结果](https://img.215454.xyz/file/blog/jia/1790347477071_06-number-parseint.png)
 
   
 
@@ -860,7 +860,7 @@ isNaN(undefined); // true —— Number(undefined) 是 NaN
 
   
 
-![隐式类型转换的触发场景与常见反直觉结果](images/07-implicit-conversion.png)
+![隐式类型转换的触发场景与常见反直觉结果](https://img.215454.xyz/file/blog/jia/1790347490078_07-implicit-conversion.png)
 
   
 
@@ -1022,7 +1022,7 @@ price(drink);
 
   
 
-![递归：调用栈的「递」与「归」，以及斐波那契数列](images/08-recursion.png)
+![递归：调用栈的「递」与「归」，以及斐波那契数列](https://img.215454.xyz/file/blog/jia/1790347490714_08-recursion.png)
 
   
 

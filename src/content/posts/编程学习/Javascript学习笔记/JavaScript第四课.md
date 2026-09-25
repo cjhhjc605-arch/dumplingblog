@@ -26,7 +26,7 @@ author: jia
 
   
 
-![嵌套 switch 的判断顺序，以及七天重复写出来的结果](images/01-switch-week-plan.png)
+![嵌套 switch 的判断顺序，以及七天重复写出来的结果](https://img.215454.xyz/file/blog/jia/1790347449232_01-switch-week-plan.png)
 
   
 
@@ -170,7 +170,7 @@ break;
 
   
 
-![斐波那契循环解法：n1、n2 一步步往后滚](images/02-fibonacci-loop.png)
+![斐波那契循环解法：n1、n2 一步步往后滚](https://img.215454.xyz/file/blog/jia/1790347449815_02-fibonacci-loop.png)
 
   
 
@@ -244,7 +244,7 @@ console.log(n3);
 
   
 
-![输入校验：isNaN 与 String(n) !== input 的区别](images/03-input-validation.png)
+![输入校验：isNaN 与 String(n) !== input 的区别](https://img.215454.xyz/file/blog/jia/1790347463605_03-input-validation.png)
 
   
 
@@ -450,7 +450,7 @@ function test(参数) {
 
   
 
-![函数的结构：入口是参数，出口是 return](images/04-function-basics.png)
+![函数的结构：入口是参数，出口是 return](https://img.215454.xyz/file/blog/jia/1790347466057_04-function-basics.png)
 
   
 
@@ -612,7 +612,7 @@ console.log(a, b);
 
   
 
-![形参、实参、arguments 的对应关系](images/05-params-arguments.png)
+![形参、实参、arguments 的对应关系](https://img.215454.xyz/file/blog/jia/1790347475402_05-params-arguments.png)
 
   
 
@@ -782,7 +782,7 @@ sum(1, 2, 3, 4, 5, 6); // 21
 
   
 
-![return 的两个作用：立刻结束函数、把结果交出去](images/06-return.png)
+![return 的两个作用：立刻结束函数、把结果交出去](https://img.215454.xyz/file/blog/jia/1790347480891_06-return.png)
 
   
 
@@ -884,7 +884,7 @@ console.log(test()); // 您没有填写姓名！
 
   
 
-![作用域链：里面能看见外面，外面看不见里面](images/07-scope-chain.png)
+![作用域链：里面能看见外面，外面看不见里面](https://img.215454.xyz/file/blog/jia/1790347493513_07-scope-chain.png)
 
   
 

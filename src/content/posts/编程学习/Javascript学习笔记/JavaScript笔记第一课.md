@@ -26,7 +26,7 @@ author: jia
 
   
 
-![浏览器内核的组成与五大浏览器的对照表](images/01-browser-engines.png)
+![浏览器内核的组成与五大浏览器的对照表](https://img.215454.xyz/file/blog/jia/1790347420948_01-browser-engines.png)
 
   
 
@@ -82,7 +82,7 @@ V8 的两个特点，直接改变了整个 Web 生态：
 
   
 
-![JavaScript 的诞生与浏览器大战时间线](images/02-js-history.png)
+![JavaScript 的诞生与浏览器大战时间线](https://img.215454.xyz/file/blog/jia/1790347459299_02-js-history.png)
 
   
 
@@ -170,7 +170,7 @@ V8 的两个特点，直接改变了整个 Web 生态：
 
   
 
-![JavaScript 的三大块：ECMAScript、DOM、BOM](images/04-js-three-parts.png)
+![JavaScript 的三大块：ECMAScript、DOM、BOM](https://img.215454.xyz/file/blog/jia/1790347475010_04-js-three-parts.png)
 
   
 
@@ -216,7 +216,7 @@ V8 的两个特点，直接改变了整个 Web 生态：
 
   
 
-![编译型与解释型的翻译过程对比](images/03-compiled-vs-interpreted.png)
+![编译型与解释型的翻译过程对比](https://img.215454.xyz/file/blog/jia/1790347464156_03-compiled-vs-interpreted.png)
 
   
 
@@ -264,7 +264,7 @@ V8 的两个特点，直接改变了整个 Web 生态：
 
   
 
-![JS 的单线程模型与轮转时间片](images/05-single-thread.png)
+![JS 的单线程模型与轮转时间片](https://img.215454.xyz/file/blog/jia/1790347476268_05-single-thread.png)
 
   
 
@@ -314,7 +314,7 @@ V8 的两个特点，直接改变了整个 Web 生态：
 
   
 
-![变量的声明与赋值，以及命名规范](images/06-variables.png)
+![变量的声明与赋值，以及命名规范](https://img.215454.xyz/file/blog/jia/1790347481047_06-variables.png)
 
   
 
@@ -408,7 +408,7 @@ document.write(z); // 7
 
   
 
-![弱类型语言与 JS 的两类值](images/07-weak-typing.png)
+![弱类型语言与 JS 的两类值](https://img.215454.xyz/file/blog/jia/1790347498490_07-weak-typing.png)
 
   
 
@@ -494,7 +494,7 @@ document.write(arr); // 1,2,3,5
 
   
 
-![栈内存与堆内存：原始值和引用值的区别](images/08-stack-heap.png)
+![栈内存与堆内存：原始值和引用值的区别](https://img.215454.xyz/file/blog/jia/1790347492760_08-stack-heap.png)
 
   
 
