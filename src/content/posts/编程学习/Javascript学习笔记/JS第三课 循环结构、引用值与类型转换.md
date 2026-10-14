@@ -1,5 +1,5 @@
 ---
-title: JavaScript第三课
+title: 第三课
 published: 2026-09-25
 description: JavaScript第三课
 tags:

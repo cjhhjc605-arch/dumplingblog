@@ -1,8 +1,9 @@
 ---
-title: "JavaScript第六课"
+title: 第六课
 published: 2026-09-26
 description: This is the first post of my new Astro blog.
-tags: [JavaScript]
+tags:
+  - JavaScript
 author: jia
 ---
 # JS 第六课：深入作用域链 [[scope]]、闭包产生本质与实战模块化

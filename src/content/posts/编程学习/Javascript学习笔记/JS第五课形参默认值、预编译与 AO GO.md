@@ -1,5 +1,5 @@
 ---
-title: JavaScript第五课
+title: 第五课
 published: 2026-09-26
 description: This is the first post of my new Astro blog.
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Java Script第四课
+title: 第四课
 published: 2026-09-25
 description: Java Script第四课
 tags:

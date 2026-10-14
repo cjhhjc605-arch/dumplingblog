@@ -1,8 +1,9 @@
 ---
-title: "JavaScript第七课"
+title: 第七课
 published: 2026-10-09
 description: This is the first post of my new Astro blog.
-tags: [JavaScript]
+tags:
+  - JavaScript
 author: jia
 ---
 # JS 第七课：立即执行函数（IIFE）、闭包实战与逗号运算符
